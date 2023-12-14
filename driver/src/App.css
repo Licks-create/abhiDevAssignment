@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&family=Poppins:ital,wght@0,500;0,700;1,300&display=swap');
+
+
+
+
+.parent{
+  background-color: rgba(209, 209, 208, 0.79);
+  height: 100vh;
+}
+*{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Poppins', sans-serif;
+
+}
+.parent .child1{
+  padding: 1rem;
+  display: flex;
+}
+.parent input{
+  outline: none;
+  height: 5vh;
+  border-radius: 12px;
+  border:2px solid rgba(21, 14, 14, 0.265);
+  font-size: 20px;
+  margin-right: 1rem;
+  padding-left: 12px;
+  
+}
+
+.parent .child2 {
+  padding: 1rem;
+}
+
+.parent .child2 h1 {
+ background-color: rgba(255, 255, 255, 0.951);
+ line-height: 10vh;
+ border-top-right-radius: 12px;
+ border-top-left-radius: 12px;
+ padding-inline: 1rem;
+ border-bottom: 1px solid rgba(21, 14, 14, 0.392);
+}
+
+.parent .child2 .eachDetail{
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0.951);
+  border-bottom: 1px solid rgba(21, 14, 14, 0.392);
+  padding: .5rem;
+  padding-block: 1rem;  
+}
+
+.parent .child2 .eachDetail .status{
+  display: flex;
+  align-items: baseline;
+  margin-block: .5rem;
+}
+.parent .child2 .eachDetail .status h5{
+  margin-inline: 1rem;
+  color: rgba(31, 27, 27, 0.808);
+  font-weight: 200;
+}
+.parent .child2 .eachDetail .driverID{
+  color: rgba(31, 27, 27, 0.808);
+  font-weight: 200;
+}
+
